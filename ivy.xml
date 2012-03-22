@@ -1,0 +1,17 @@
+<ivy-module version="1.0">
+  <info
+      organisation="omero"
+      module="hyldap"
+      status="integration"/>
+  <configurations>
+    <conf name="build"/>
+    <conf name="server"/>
+  </configurations>
+  <publications>
+    <artifact name="hyldap" type="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="build,server->default">
+    <!-- Internal -->
+    <dependency name="server" rev="${omero.version}" changing="true" conf="build->build;server->server"/>
+  </dependencies>
+</ivy-module>

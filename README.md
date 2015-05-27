@@ -1,3 +1,6 @@
+# omero-hyldap
+OMERO LDAP component for Helsingin yliopisto.
+
 Example build directory.
 
 See: http://lists.openmicroscopy.org.uk/pipermail/ome-users/2012-March/002964.html
@@ -61,3 +64,4 @@ install:
 BUILD SUCCESSFUL
 Total time: 9 seconds
 ```
+

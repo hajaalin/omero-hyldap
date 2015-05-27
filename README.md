@@ -1,6 +1,8 @@
 # omero-hyldap
 OMERO LDAP component for Helsingin yliopisto.
 
+Original Gist: https://gist.github.com/hajaalin/2172934
+
 Example build directory.
 
 See: http://lists.openmicroscopy.org.uk/pipermail/ome-users/2012-March/002964.html

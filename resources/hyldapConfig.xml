@@ -1,0 +1,4 @@
+<hyldapconfig>
+    <group ldapname="uid=grp-A91900-bi-vart,ou=alma_workgroups,ou=groups,o=hy" omename="BI-Vartiainen"/>
+    <group ldapname="uid=grp-A34520-biu,ou=alma_workgroups,ou=groups,o=hy" omename="BIU"/>
+</hyldapconfig >

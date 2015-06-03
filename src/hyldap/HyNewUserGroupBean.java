@@ -27,8 +27,9 @@ import ome.security.auth.NewUserGroupBean;
 import ome.security.auth.RoleProvider;
 import ome.system.ServiceFactory;
 
-import org.apache.commons.logging.LogFactory;
-import org.apache.commons.logging.Log;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.ldap.core.LdapOperations;
 
 import org.w3c.dom.Document;
@@ -51,7 +52,7 @@ public class HyNewUserGroupBean implements ome.security.auth.NewUserGroupBean, H
     public final static String ATTR_OMENAME = "omename";
     
     private HashMap allowedGroups = new HashMap();
-    private final static Log log = LogFactory.getLog(HyNewUserGroupBean.class);
+    private final static Logger log = LoggerFactory.getLogger(HyNewUserGroupBean.class);
 
 
  

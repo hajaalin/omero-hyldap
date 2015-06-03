@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
-
+ 
 <beans>
-
-    <bean id="myldapbean" class="hyldap.MyBean"/>
-
+ 
+    <bean id="hyldapbean" class="hyldap.HyNewUserGroupBean">
+        <constructor-arg value="/home/omero/hyldapConfig.xml"/>
+    </bean>
+    
+    <bean id="hyldapbean_hc" class="hyldap.HyHcNewUserGroupBean"/>
+ 
 </beans>
